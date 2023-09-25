@@ -59,6 +59,7 @@ nav ul li a {
     color: white;
     padding: 5px 10px;
     transition: all 0.2s ease-in;
+    border-radius: 10px;
 }
 
 nav ul li a:hover {
@@ -126,6 +127,7 @@ section h2 {
     background-color: #ee9ca7;
     color: white;
     letter-spacing: 0.2em;
+    border-radius: 5px;
 }
 
 /* fixing alignment for image in about section */
