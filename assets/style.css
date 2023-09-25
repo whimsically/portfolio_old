@@ -74,13 +74,15 @@ nav ul li a:hover {
 
 /* Styling for header */
 header {
-    background-image: url("tomoko-uji-kxvn1ogpTtE-unsplash.jpg");
-    background-size: cover;
-    background-position: center; 
     display: flex;
     justify-content: center;
     align-items: center;
     height: 500px;
+    background-image: url("tomoko-uji-kxvn1ogpTtE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid #ee9ca7;
+    margin-bottom: 10px;
 }
 
 .top-txt-container {
@@ -104,8 +106,39 @@ header {
 
 .top-txt-container:hover {
     transform: scale(1.1);
+    color:#ee9ca7;
+    text-shadow: -1px -1px 3px #ffdde1,
+    3px 3px 3px #ffdde1;
 }
 
+
+/* Styling main sections */
+section {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 1em;
+}
+
+section h2 {
+    text-align: center;
+    text-transform: lowercase;
+    background-color: #ee9ca7;
+    color: white;
+    letter-spacing: 0.2em;
+}
+
+/* fixing alignment for image in about section */
+#about img {
+    float: left;
+    margin-right: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 /* Media queries, change layout to vertical bar when screen is big enough */
 @media screen and (min-width: 769px) {
