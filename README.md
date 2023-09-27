@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-View the deployed project via GitPages or view the code on the repository.
+View the deployed project [via GitPages here](https://whimsically.github.io/portfolio/) or view the code on the repository.
 
  ![image of deployed portfolio](assets/portfolio-image.png)
 
