@@ -142,6 +142,29 @@ section h2 {
     display: table;
   }
 
+  /* styling projects section */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-lg {
+    width: 100%;
+}
+
+.card {
+    width: 40%;
+}
+
+.card-lg, .card {
+    border: 2px solid #ee9ca7;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #ffdde1;
+    margin: 2px;
+    text-align: center;
+}
+
 /* Media queries, change layout to vertical bar when screen is big enough */
 @media screen and (min-width: 769px) {
     .sticky {
