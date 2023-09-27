@@ -12,7 +12,7 @@ N/A
 
 View the deployed project via GitPages or view the code on the repository.
 
- ![image of deployed portfolio](assets\portfolio-image.png)
+ ![image of deployed portfolio](assets/portfolio-image.png)
 
 ## Credits
 Header image by [Tomoko Uji on Unsplash.com](https://unsplash.com/@ujitomo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
