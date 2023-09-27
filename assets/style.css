@@ -108,8 +108,8 @@ header {
 .top-txt-container:hover {
     transform: scale(1.1);
     color:#ee9ca7;
-    text-shadow: -1px -1px 3px #ffdde1,
-    3px 3px 3px #ffdde1;
+    text-shadow: -2px -2px 3px white,
+    2px 2px 3px white;
 }
 
 
@@ -150,19 +150,37 @@ section h2 {
 }
 
 .card-lg {
-    width: 100%;
+    width: 100%
 }
 
 .card {
-    width: 40%;
+    width: 48%
 }
 
 .card-lg, .card {
     border: 2px solid #ee9ca7;
     border-radius: 3px;
     box-shadow: 2px 2px 2px #ffdde1;
-    margin: 2px;
+    margin: 1px;
     text-align: center;
+}
+
+/* styling contact section */
+#contact {
+    text-align: center;
+}
+
+/* styling footer */
+footer {
+    text-align: center;
+    background-color: #ee9ca7;
+    color: white;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* Media queries, change layout to vertical bar when screen is big enough */
